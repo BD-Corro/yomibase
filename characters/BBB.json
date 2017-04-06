@@ -1,0 +1,94 @@
+{
+    "character": {
+        "summary": {
+            "name": "BBB",
+            "fullName": "Bal-Bas-Beta",
+            "title": "Clockwork Guardian",
+            "hitPoints": 80,
+            "maxCombo": 2,
+            "attackDefaults": {
+                "speedOffset": 0.8
+                "chip": 2
+                "comboPts": 1
+            },
+            "throwDefaults": {
+                "speedOffset": 0.4,
+                "damage": 7,
+                "comboPts": 1,
+                "comboType": "Starter",
+                "kd": false
+            },
+            "attacks": [2, 3, 4, 6, "7*", "J", "Q", "A"],
+            "throws": [7, 8, "9*, "T"],
+            "blocks": [2, 3, 4, 5, 6, 8, "9*"],
+            "dodges": [5, "T"],
+            "innateAbilities": [
+                {
+                    "name": "Long Range",
+                    "text": "When your [range] moves are blocked or win combat, set combat to ranged next turn. At range:
+• Non-[range] moves become Enders, can't be pumped, and don't deal damage or block damage.
+• Players can't play throws, except [range] throws.
+• Return the first face card you play each combat to your hand.
+• Your normal attacks are speed 1.0.
+Lose range at the end of a turn in which both players blocked or you got hit by a non-[range] move.
+(In 2v2 and 2v1, cancel range if there are no BBBs on the battlefield.)"
+                }
+            ],
+            "cardAbilities": [
+                {
+                    "rank": 7,
+                    "name": "Robo Headbutt",
+                    "timing": "During Combat",
+                    "text": "If you combat-reveal Robo Headbutt and it wins combat, you may play another full combo."
+                },
+                {
+                    "rank": 9,
+                    "name": "Overdrive",
+                    "timing": "Draw Phase"
+                    "text": "This turn, your face cards deal +3 damage and your:
+• Long Arm (Jack) can't be interrupted except by knockdowns
+• Junkshot (Queen) is unblockable
+• Extensor Grab (King) sets range even if it hits after a dodge."
+            ]
+        },
+        "attacks": [
+            {"rank": 2, "maxCombo": "2>Q++", "maxDamage": 17, "goodCombo": "2>A", "goodDamage": 13, "notes": "1.0 speed at range"},
+            {"rank": 3, "maxCombo": "3>Q++", "maxDamage": 18, "goodCombo": "3>4", "goodDamage": 7, "notes": "1.0 speed at range"},
+            {"rank": 4, "maxCombo": "4>Q++", "maxDamage": 19, "goodCombo": "4>J", "goodDamage": 11, "notes": "1.0 speed at range"},
+            {"rank": 6, "maxCombo": "6>Q++", "maxDamage": 21, "goodCombo": "6>A", "goodDamage": 17, "notes": "1.0 speed at range"},
+            {"speed": 2.8, "rank": 7, "name": "Robo Headbutt","damage": 10, "comboType": "Can't Combo" "maxCombo": "7>AA++", "maxDamage": 45, "goodCombo": "7>Q++>Q++", "goodDamage": 40, "notes": "Can't be played at range, Can combo due to Robo Headbutt"},
+            {"speed": 2.4, "rank": "J", "pumpWith": "+J", "name": "Chains of Ice", "damage": 7, "pump": 7, "chip": 5, "maxCombo": "J+>K++>A+", "maxDamage": 42, "goodCombo": "J+>3>4>5>6", "goodDamage": 32, "notes": "Unburstable due to Chillbane"}
+            {
+                "speed": "",
+                "rank": "",
+                "name": "",
+                "pumpWith": "",
+                "damage": "",
+                "pump": "",
+                "chip": "",
+                "comboPts": 1,
+                "comboType": "Starter",
+                "kd": false,
+                "maxCombo": "",
+                "maxDamage": "",
+                "goodCombo": "",
+                "goodDamage": "",
+                "notes": ""
+            }
+        ],
+        "throws": [
+            {
+                "speed": "",
+                "rank": "",
+                "pumpWith": "",
+                "damage": "",
+                "pump": "",
+                "maxCombo": "",
+                "maxDamage": "",
+                "goodCombo": "",
+                "goodDamage": "",
+                "notes": ""
+            }
+        ]
+    }
+}

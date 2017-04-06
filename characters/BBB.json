@@ -7,8 +7,8 @@
             "hitPoints": 80,
             "maxCombo": 2,
             "attackDefaults": {
-                "speedOffset": 0.8
-                "chip": 2
+                "speedOffset": 0.8,
+                "chip": 2,
                 "comboPts": 1
             },
             "throwDefaults": {
@@ -19,7 +19,7 @@
                 "kd": false
             },
             "attacks": [2, 3, 4, 6, "7*", "J", "Q", "A"],
-            "throws": [7, 8, "9*, "T"],
+            "throws": [7, 8, "9*", "T"],
             "blocks": [2, 3, 4, 5, 6, 8, "9*"],
             "dodges": [5, "T"],
             "innateAbilities": [

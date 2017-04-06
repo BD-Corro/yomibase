@@ -49,6 +49,7 @@ Lose range at the end of a turn in which both players blocked or you got hit by 
 • Long Arm (Jack) can't be interrupted except by knockdowns
 • Junkshot (Queen) is unblockable
 • Extensor Grab (King) sets range even if it hits after a dodge."
+                }
             ]
         },
         "attacks": [

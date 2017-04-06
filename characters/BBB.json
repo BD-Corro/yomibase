@@ -44,7 +44,7 @@ Lose range at the end of a turn in which both players blocked or you got hit by 
                 {
                     "rank": 9,
                     "name": "Overdrive",
-                    "timing": "Draw Phase"
+                    "timing": "Draw Phase",
                     "text": "This turn, your face cards deal +3 damage and your:
 • Long Arm (Jack) can't be interrupted except by knockdowns
 • Junkshot (Queen) is unblockable
